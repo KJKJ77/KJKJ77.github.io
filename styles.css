@@ -1,0 +1,214 @@
+body{
+    height: 1200px;
+    background-color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+}
+div{  
+}
+
+.si{
+    display: flex;
+    flex-direction: column;
+    width: 388px;
+    height: 400px;
+    position: relative;
+    left: 800px;
+    top: 250px;
+    justify-content: space-between;
+}
+
+.up-text{
+    width: 380px;
+    height: 45px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    border: 1px solid rgb(222,222,222);
+    border-radius: 8px;
+}
+
+.up-text::placeholder{
+    color: rgb(227, 225, 228);
+}
+
+.down-text{
+    width: 81px;
+    height: 45px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    border: 1px solid rgb(222,222,222);
+    border-radius: 8px;
+}
+.down-text::placeholder{
+    color: rgb(227, 225, 228);
+}
+
+.cvc{
+    width: 190px;
+    height: 45px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    border: 1px solid rgb(222,222,222);
+    border-radius: 8px;
+}
+.cvc::placeholder{
+    color: rgb(227, 225, 228);
+}
+
+
+.low-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.typo{
+    color: rgb(80, 71, 88);
+    padding-bottom: 8px;
+}
+.ed{
+    padding-bottom: 8px;
+    color: rgb(80, 71, 88);
+}
+
+.bot{
+    background-color: black;
+    width: 382px;
+    height: 55px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.bot:hover{
+    border:2px solid white ;
+}
+.grad{
+    z-index: 1;
+    position: relative;
+    bottom: 500px;
+    height: 1300px;
+    width: 482px;
+    background-image: linear-gradient(135deg, rgba(33,9,47,1) 0%, rgba(96,5,148,1) 16%, rgba(141,27,129,1) 24%, rgba(255,82,82,1) 30%, rgba(145,45,114,1) 40%, rgba(26,5,148,1) 53%, rgba(96,5,148,1) 59%, rgba(33,9,47,1) 75%);
+}
+.card2{
+    position: relative;
+    left: 258px;
+    bottom: 1535px;
+    width:449px ;
+    height: 246px;
+    background-color: rgb(227, 228, 232);
+    z-index: 2;
+    border-radius: 8px;
+}
+.bande{
+    width: 449px;
+    height: 46px;
+    background-color: rgb(47, 47, 47);
+    position: relative;
+    left: 258px;
+    bottom: 1425px;
+    z-index: 3;
+}
+.bande2{
+    width: 346px;
+    height: 38px;
+    background-color: rgb(173, 183, 191);
+    position: relative;
+    left: 304px;
+    bottom: 1400px;
+    z-index: 3;
+    border: 0px;
+    border-radius: 8px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    text-align: right;
+    padding-right: 15px ;
+    letter-spacing: 3px;
+    color: rgb(249, 255, 255);
+}
+.bande2::placeholder{
+    color: rgb(249, 255, 255);
+}
+.card1{
+    position: relative;
+    width: 447px;
+    height: 245px;
+    background: linear-gradient(135deg, rgba(100,72,255,1) 0%, rgba(105,73,252,1) 27%, rgba(198,85,191,1) 51%, rgba(220,117,112,1) 68%, rgba(96,4,147,1) 95%);
+    border-radius: 8px;
+    left: 139px;
+    bottom: 1550px ;
+    z-index: 3;
+}
+
+.circ{
+    position:relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(249, 255, 255);
+    border-radius: 50%;
+    bottom: 2100px;
+    left: 170px;
+    z-index: 3;
+}
+.circ2{
+    position:relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    bottom: 2137px;
+    left: 238px;
+    z-index: 4;
+}
+.aff-num{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    width: 385px;
+    height: 39px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 27px;
+    color: rgb(249, 255, 255);
+    bottom: 2065px;
+    left: 175px;
+    z-index: 4;
+    letter-spacing: 4px;
+}
+.aff-num::placeholder{
+    color: rgb(249, 255, 255);
+}
+.aff-name{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    width: 180px;
+    height: 22px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    color: rgb(249, 255, 255);
+    bottom: 2015px;
+    right: 220px;
+    z-index: 4;
+    letter-spacing: 4px;
+}
+.aff-name::placeholder{
+    color: rgb(249, 255, 255);
+}
+.aff-date{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    width: 70px;
+    height: 22px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    color: rgb(249, 255, 255);
+    bottom: 2015px;
+    right: 95px;
+    z-index: 4;
+    letter-spacing: 4px;
+}
+.aff-date::placeholder{
+    color: rgb(249, 255, 255);
+}
